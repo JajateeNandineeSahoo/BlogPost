@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;700&display=swap');
+
+body {
+    font-family: 'Bodoni Moda';
+    font-size: 1.1rem;
+    background: #EBF2FA;
+    position: relative;
+    height: 100vh;
+}
+
+.navbar {
+    background: #a9c9e2;
+    padding: 0;
+}
+
+.navbar .navbar-brand {
+    color: #052547;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.navbar .nav-item {
+    padding: 8px 5px;
+}
+
+.navbar .nav-link {
+    color: #052547;
+    font-size: 1.2rem;
+}
+
+.navbar .nav-link:hover {
+    color: #064789;
+    text-decoration: underline;
+}
+
+.post {
+    margin: 2rem 10rem;
+    padding: 1rem 1.5rem;
+}
+
+.post h1 {
+    color: #052547;
+    font-weight: bold;
+}
+
+.post h5 a {
+    color: #052547;
+    text-decoration: none;
+}
+
+.post h5 a:hover {
+    text-decoration: underline;
+}
+
+.post p {
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #064789;
+}
+
+.post .btn a {
+    background: #052547;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.post .btn a:hover {
+    color: #EBF2FA;
+}
+
+.post small {
+    float: right;
+    color: #052547;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+  
+footer p{
+    background: #a9c9e2;
+    padding: 0.7rem;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0;
+}
